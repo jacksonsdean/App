@@ -1,0 +1,14 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\TestApp>cd C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Android SDK\platform-tools
+
+C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Android SDK\platform-tools>adb shell
+# cd data/data/com.example.jackson.testapp/files
+cd data/data/com.example.jackson.testapp/files
+# ls
+ls
+data.txt
+# cat data.txt
+cat data.txt
+{"bg":0,"carbs":0,"protein":0,"fat":0}#

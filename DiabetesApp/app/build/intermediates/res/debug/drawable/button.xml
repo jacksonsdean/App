@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/button_background" />
+    <item android:state_focused="true" android:drawable="@drawable/button_background" />
+    <item android:drawable="@drawable/border_grey" />
+</selector><!-- From: file:/C:/Users/Jackson/Desktop/Diabetes%20App/Android%20IDE/Project/DiabetesApp/app/src/main/res/drawable/button.xml -->

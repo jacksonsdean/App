@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="2"
+    tools:context="com.example.jackson.diabetesapp.NewEntryActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_weight=".1"
+        android:background="@drawable/border"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/new_entry_bg"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|bottom"
+            android:layout_weight="1.5"
+            android:capitalize="words"
+            android:maxWidth="180dp"
+            android:text="@string/blood_glucose_mg_dl"
+            android:textSize="@dimen/entry_font_size" />
+
+        <EditText
+            android:id="@+id/bg_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginLeft="65dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:hint="0"
+            android:inputType="number"
+            android:singleLine="true"
+            android:text="0"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_weight=".1"
+        android:background="@drawable/border"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/new_entry_carbs"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|bottom"
+            android:layout_weight="1.5"
+            android:maxWidth="180dp"
+            android:text="@string/carbohydrates_g"
+            android:textSize="@dimen/entry_font_size" />
+
+        <EditText
+            android:id="@+id/carbs_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginLeft="65dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:hint="0"
+            android:inputType="number"
+            android:singleLine="true"
+            android:text="0"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_weight=".1"
+        android:background="@drawable/border"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/new_entry_protein"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|bottom"
+            android:layout_weight="1.5"
+            android:capitalize="words"
+            android:text="@string/protein_g"
+            android:textSize="@dimen/entry_font_size" />
+
+        <EditText
+            android:id="@+id/protein_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginLeft="65dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:hint="0"
+            android:inputType="number"
+            android:singleLine="true"
+            android:text="0"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:background="@drawable/border"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/new_entry_fat"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|bottom"
+            android:layout_weight="1.5"
+            android:capitalize="words"
+            android:text="@string/fat_g"
+            android:textSize="@dimen/entry_font_size" />
+
+        <EditText
+            android:id="@+id/fat_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginLeft="65dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:hint="0"
+            android:inputType="number"
+            android:singleLine="true"
+            android:text="0"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/new_entry_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/new_entry_okay_button"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="@string/okay" />
+
+
+        <Button
+            android:id="@+id/new_entry_debug_button"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="recallEntryJson"
+            android:text="debug" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/new_entry_clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="clearJson"
+            android:text="clr" />
+
+        <TextView
+            android:id="@+id/new_entry_debug_text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/border"
+            android:text=""
+            android:textSize="@dimen/entry_font_size" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

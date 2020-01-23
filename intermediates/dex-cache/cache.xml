@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Android SDK\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-7bb7ca20012193de3c7366b1ac97d0e206713c94.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\build\intermediates\pre-dexed\debug\classes-d7e216235a703d9bd20977f532ba58947689f6f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-cb58d1a611afe67070de5477a9c9555a3554468a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\libs\json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\build\intermediates\pre-dexed\debug\json-simple-1.1.1-d312ca11b399d1013dc1514c4cc0aeb38255c450.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jackson\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.3\56498efd17752898cfcc3868c1b6211a07b12b8f\joda-time-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
+        <dex dex="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\build\intermediates\pre-dexed\debug\joda-time-2.3-9661d9efa8096b5d4ea3b8dc72013b092960d5b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\build\intermediates\pre-dexed\debug\classes-93991e185f7f6a10423f85332cab4c6cc91886b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jackson\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Jackson\Desktop\Diabetes App\Android IDE\Project\DiabetesApp\app\build\intermediates\pre-dexed\debug\gson-2.2.4-cb9d05e7b386d72fa70e2a1474a0a04f3746c144.jar" />
+    </item>
+
+</items>

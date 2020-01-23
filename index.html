@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<h1>WELCOME</h1>
+	<br/>
+	<table>
+		<tr>
+			<td>
+  	<form action="data.py">
+  	<table>
+  			<tr>
+  				<td>
+  					Carbohydrates:
+  				</td>
+  				
+  				<td>
+  					<input name="carbs"type="text"/>
+  				</td>
+  				
+  				</tr>
+  			<tr>
+  				<td>
+  					Protein:
+  				</td>
+  				<td>
+  					<input name="protein" type ="text"/>	
+  				</td>
+  			</tr>
+  			<tr>
+  				<td>
+  					Fat Content:	
+  				</td>
+  				
+  				<td>
+  					<input name="fat" type="text"/>
+  				</td>
+  			</tr>
+ 				
+  	</table>
+  	_______________________________________</br>
+  			<input value="GO" type="submit"/>
+  			</br>
+  
+  	</form> 
+  
+  </td>
+  <td>
+  	<table>
+  		<tr>
+  			<td>_______________________________________</td>
+  		
+  		</tr>
+  		<tr>
+  			<td>
+  				Carbohydrates:
+  			</td>
+  			
+  		</tr>
+  		<tr>
+  			<td>
+  				Protein:
+  			</td>
+  		</tr>
+  		<tr>
+  			<td>
+  				Fat Content:
+  			</td>
+  		</tr>
+  		
+  	</table>
+  	
+  	
+  </td>
+  
+  </tr>
+  <table>
+  	
+  	<script language="c">
+  		FILE *f = fopen("file.txt", "w");
+if (f == NULL)
+{
+    printf("Error opening file!\n");
+    exit(1);
+}
+
+/* print some text */
+const char *text = "Write this to the file";
+fprintf(f, "Some text: %s\n", text);
+
+/* print integers and floats */
+int i = 1;
+float py = 3.1415927;
+fprintf(f, "Integer: %d, float: %f\n", i, py);
+
+/* printing single chatacters */
+char c = 'A';
+fprintf(f, "A character: %c\n", c);
+
+fclose(f);
+  	</script>
+  
+  <script>
+  	//here will go the script to convert user input to CSV  	
+  	
+var csvstring= "test"
+var w = window.open('','csvWindow');
+	
+	
+	
+	w.document.open("text/csv",'data.csv');
+	
+	document.open("text/csv",'data.csv');
+	
+	w.document.write(csvstring);
+
+	w.document.close();
+  	
+  	w.document.close("text/csv",'data.csv');
+  
+  </script>
+  
+  
+  
+</html>	

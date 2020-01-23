@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">onTrack</string>
+
+    <string name="title_activity_new_entry">Enter the amounts:</string>
+    <string name="action_settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="okay">Okay</string>
+
+    <string name="XML">XML</string>
+
+    <string name="tracking">Tracking</string>
+    <string name="settings">Settings</string>
+    <string name="reminders">Reminders</string>
+    <string name="new_entry">New Entry</string>
+    <string name="blood_glucose_mg_dl">Blood Glucose\n(mg/dL)</string>
+    <string name="carbohydrates_g">Carbohydrates (g)</string>
+    <string name="protein_g">Protein (g)</string>
+    <string name="fat_g">Fat (g)</string>
+    <string name="title_activity_reminders">RemindersActivity</string>
+
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_reminders_test">RemindersTestActivity</string>
+    <string name="title_activity_main">Main Menu</string>
+    <string name="title_activity_alarm_receiver">AlarmReceiverActivity</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="title_activity_tracking">TrackingActivity</string>
+
+    <string name="pref_header_clear">Clear User Data</string>
+
+
+    <string-array name="spinner_array">
+        <item>Blood Glucose vs. Time</item>
+        <item>Carbs vs. Time</item>
+        <item>Protein vs. Time</item>
+        <item>Fat vs. Time</item>
+
+    </string-array>
+    <string name="title_activity_delete_data">DeleteData</string>
+
+
+</resources>

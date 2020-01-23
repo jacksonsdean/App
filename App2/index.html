@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+	<h1>WELCOME</h1>
+	<br/>
+	<table>
+		<tr>
+			<td>
+  
+  
+  
+  <body>
+  
+
+  
+  </body>
+  
+  
+  
+  
+  	<form name="userInput" action="">
+  	<table>
+  			<tr>
+  				<td>
+  					Carbohydrates:
+  				</td>
+  				
+  				<td>
+  					<input name="carbs"type="text"/>
+  				</td>
+  				
+  				</tr>
+  			<tr>
+  				<td>
+  					Protein:
+  				</td>
+  				<td>
+  					<input name="protein" type ="text"/>	
+  				</td>
+  			</tr>
+  			<tr>
+  				<td>
+  					Fat Content:	
+  				</td>
+  				
+  				<td>
+  					<input name="fat" type="text"/>
+  				</td>
+  			</tr>
+ 				
+  	</table>
+  	_______________________________________</br>
+  			<input value="GO" type="submit"/>
+  			</br>
+  
+  	</form> 
+  
+  </td>
+  <td>
+  	<table>
+  		<tr>
+  			<td>_______________________________________</td>
+  		
+  		</tr>
+  		<tr>
+  			<td id="carbslast">
+  				Carbohydrates:
+  			</td>
+  			
+  		</tr>
+  		<tr>
+  			<td>
+  				Protein:
+  			</td>
+  		</tr>
+  		<tr>
+  			<td>
+  				Fat Content:
+  			</td>
+  		</tr>
+  		
+  	</table>
+  	
+  	
+  </td>
+  
+  </tr>
+  <table>
+  	
+  	<script>
+  		document.getElementById('carbslast').innerHTML =("Carbohydrates: " + localStorage.getItem("carbs"))
+  	</script>
+  
+  
+  <script name="data">
+   var userCarbs =  document.userInput.carbs.value
+   var userProtein =  document.userInput.protein.value
+   var userFat =  document.userInput.fat.value
+   
+   function main(){
+localStorage.setItem("carbs",userCarbs)
+localStorage.setItem("protein",userProtein)
+localStoragSe.setItem("fat",userFat)
+
+
+};
+  </script>
+  
+  
+  
+</html>	
